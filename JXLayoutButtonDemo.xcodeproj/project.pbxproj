@@ -14,8 +14,6 @@
 		9451D7651D967E1D000AD70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9451D7641D967E1D000AD70C /* Assets.xcassets */; };
 		9451D7681D967E1D000AD70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9451D7661D967E1D000AD70C /* LaunchScreen.storyboard */; };
 		9451D7741D967E4F000AD70C /* JXLayoutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9451D7731D967E4F000AD70C /* JXLayoutButton.m */; };
-		9451D7771D9688B2000AD70C /* luffy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9451D7751D9688B2000AD70C /* luffy@3x.png */; };
-		9451D7781D9688B2000AD70C /* luffy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9451D7761D9688B2000AD70C /* luffy@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +29,6 @@
 		9451D7691D967E1D000AD70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9451D7721D967E4F000AD70C /* JXLayoutButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLayoutButton.h; sourceTree = "<group>"; };
 		9451D7731D967E4F000AD70C /* JXLayoutButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLayoutButton.m; sourceTree = "<group>"; };
-		9451D7751D9688B2000AD70C /* luffy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luffy@3x.png"; sourceTree = "<group>"; };
-		9451D7761D9688B2000AD70C /* luffy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luffy@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +67,6 @@
 				9451D75F1D967E1C000AD70C /* ViewController.m */,
 				9451D7721D967E4F000AD70C /* JXLayoutButton.h */,
 				9451D7731D967E4F000AD70C /* JXLayoutButton.m */,
-				9451D7751D9688B2000AD70C /* luffy@3x.png */,
-				9451D7761D9688B2000AD70C /* luffy@2x.png */,
 				9451D7611D967E1D000AD70C /* Main.storyboard */,
 				9451D7641D967E1D000AD70C /* Assets.xcassets */,
 				9451D7661D967E1D000AD70C /* LaunchScreen.storyboard */,
@@ -148,11 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9451D7771D9688B2000AD70C /* luffy@3x.png in Resources */,
 				9451D7681D967E1D000AD70C /* LaunchScreen.storyboard in Resources */,
 				9451D7651D967E1D000AD70C /* Assets.xcassets in Resources */,
 				9451D7631D967E1D000AD70C /* Main.storyboard in Resources */,
-				9451D7781D9688B2000AD70C /* luffy@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

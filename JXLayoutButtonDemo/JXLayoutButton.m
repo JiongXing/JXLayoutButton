@@ -81,4 +81,9 @@
     [self setNeedsLayout];
 }
 
+- (void)setMidSpacing:(CGFloat)midSpacing {
+    _midSpacing = midSpacing;
+    [self setNeedsLayout];
+}
+
 @end
