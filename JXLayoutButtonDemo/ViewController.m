@@ -33,6 +33,12 @@
     
     [self addButton: [self generateButtonWithStyle:JXLayoutButtonStyleLeftTitleRightImage]
           withFrame:CGRectMake(margin + buttonWidth + margin, 64 + margin + buttonHeight + margin, buttonWidth, buttonHeight)];
+    
+    JXLayoutButton *customSizeButton = [self generateButtonWithStyle:JXLayoutButtonStyleUpImageDownTitle];
+    [customSizeButton setTitle:@"SmallSize" forState:UIControlStateNormal];
+    customSizeButton.imageSize = CGSizeMake(100 / 4, 140 / 4);
+    [self addButton:customSizeButton
+          withFrame:CGRectMake((CGRectGetWidth(self.view.frame) - buttonWidth) / 2.0, 64 + margin * 3 + buttonHeight * 2, buttonWidth, buttonHeight)];
 }
 
 - (JXLayoutButton *)generateButtonWithStyle:(JXLayoutButtonStyle)style {

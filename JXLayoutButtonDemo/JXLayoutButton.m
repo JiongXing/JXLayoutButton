@@ -13,6 +13,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         self.midSpacing = 8;
+        self.imageSize = CGSizeZero;
     }
     return self;
 }
@@ -20,7 +21,15 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    [self.imageView sizeToFit];
+    if (CGSizeEqualToSize(CGSizeZero, self.imageSize)) {
+        [self.imageView sizeToFit];
+    }
+    else {
+        self.imageView.frame = CGRectMake(self.imageView.frame.origin.x,
+                                          self.imageView.frame.origin.y,
+                                          self.imageSize.width,
+                                          self.imageSize.height);
+    }
     [self.titleLabel sizeToFit];
     
     switch (self.layoutStyle) {

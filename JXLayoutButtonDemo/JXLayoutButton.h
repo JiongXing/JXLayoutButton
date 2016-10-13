@@ -22,5 +22,7 @@ typedef NS_ENUM(NSUInteger, JXLayoutButtonStyle) {
 @property (nonatomic, assign) JXLayoutButtonStyle layoutStyle;
 /// 图片和文字的间距，默认值8
 @property (nonatomic, assign) CGFloat midSpacing;
+/// 指定图片size
+@property (nonatomic, assign) CGSize imageSize;
 
 @end
