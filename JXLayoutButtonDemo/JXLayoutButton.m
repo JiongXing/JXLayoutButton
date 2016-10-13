@@ -95,4 +95,9 @@
     [self setNeedsLayout];
 }
 
+- (void)setImageSize:(CGSize)imageSize {
+    _imageSize = imageSize;
+    [self setNeedsLayout];
+}
+
 @end
